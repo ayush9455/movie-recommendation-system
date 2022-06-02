@@ -3,7 +3,6 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import requests
-import webbrowser
 
 latent_matrix_df = pickle.load(open('content.pkl','rb'))
 latent_matrix_2_df = pickle.load(open('collabrative.pkl','rb'))
